@@ -11,10 +11,10 @@ public class RaiseTechDay2 {
 
         int count = 0;
 
-        for (Student Student : studentList) {
-            if (Student.getClassName().equals("B")) {
+        for (Student student : studentList) {
+            if (student.getClassName().equals("B")) {
                 count++;
-                System.out.println(count + "人目: " + Student.getStudentName() + " , " + Student.getAge() + "歳");
+                System.out.println(count + "人目: " + student.getStudentName() + " , " + student.getAge() + "歳");
             }
         }
     }
