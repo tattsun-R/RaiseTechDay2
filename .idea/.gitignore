@@ -1,0 +1,7 @@
+gitignore
+
+/.idea/
+/tmp/
+/bin/
+*.test
+*.swp
