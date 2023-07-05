@@ -1,25 +1,25 @@
 public class Student {
 
-    private String studentname;
+    private String studentName;
     private int age;
-    private String classname;
+    private String className;
 
-    public Student(String studentname, int age, String classname) {
-        this.studentname = studentname;
+    public Student(String studentName, int age, String className) {
+        this.studentName = studentName;
         this.age = age;
-        this.classname = classname;
+        this.className = className;
     }
 
-    public String getStudentname() {
-        return studentname;
+    public String getStudentName() {
+        return studentName;
     }
 
     public int getAge() {
         return age;
     }
 
-    public String getClassname() {
-        return classname;
+    public String getClassName() {
+        return className;
     }
 
 }
